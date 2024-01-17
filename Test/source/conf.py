@@ -16,7 +16,7 @@ import sys
 
 sys.path.append(os.path.abspath("./_ext"))
 
-extensions = ['helloworld', 'todo','sphinx_rtd_theme', 'sphinx_copybutton', 'sphinx_code_tabs', 'docxbuilder', 'sphinx_gitstamp']
+extensions = ['helloworld', 'todo','sphinx_rtd_theme', 'sphinx_copybutton', 'sphinx_code_tabs', 'docxbuilder', 'sphinx_gitstamp','sphinxcontrib.spelling']
 
 todo_include_todos = True
 
